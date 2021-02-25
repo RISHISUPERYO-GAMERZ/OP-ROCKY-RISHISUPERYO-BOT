@@ -1,4 +1,4 @@
-[](images/OP-ROCKY-RISHISUPERYO-BOT)
+![](images/OP-ROCKY-RISHISUPERYO-BOT-medium.png)
 
 Hi👋
 

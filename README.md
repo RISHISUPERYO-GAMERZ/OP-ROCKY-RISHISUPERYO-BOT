@@ -1,4 +1,5 @@
-![](images/OP-ROCKY-RISHISUPERYO-BOT-medium.png)
+![IMG_20210225_145209_546](https://user-images.githubusercontent.com/73427470/109182101-a91bfd80-77b2-11eb-859c-193395ebf232.jpg)
+
 
 Hi👋
 

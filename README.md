@@ -32,7 +32,7 @@ Don't forget to give us star  🌟 ⭐ and follow us for updates
 
 Big thanks go to team BLACK **LIGHTNING** and **PIKACHU** bot for this project
 
-Sun fact 😂= those bots owners are my best  friend of tg 💙
+Fun fact 😂= those bots owners are my best  friend of tg 💙
 
 They really helped me a lot in coding❤️💙 :)
 

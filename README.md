@@ -32,9 +32,12 @@ I know what am I doing so if u can help plz help😉
 
 Don't forget to give us star  🌟 ⭐ and follow us for updates
 
-Big thanks go to team **BLACK LIGHTNING**
+Big thanks go to team 
+-->**BLACK LIGHTNING**
+![IMG_20210226_110140_962](https://user-images.githubusercontent.com/73427470/109259680-b7096700-7822-11eb-8a6a-00a0384f06cc.jpg)
+and 
 
- and **PIKACHU-LAVA-BOT** 
+-->**PIKACHU-LAVA-BOT** 
 ![IMG_20210226_110023_019](https://user-images.githubusercontent.com/73427470/109259316-f1becf80-7821-11eb-8c56-ffd2c7e5239c.jpg)
 bot for this project
 

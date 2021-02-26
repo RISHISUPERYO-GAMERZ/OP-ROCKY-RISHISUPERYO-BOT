@@ -41,7 +41,7 @@ and
 ![IMG_20210226_110023_019](https://user-images.githubusercontent.com/73427470/109259316-f1becf80-7821-11eb-8c56-ffd2c7e5239c.jpg)
 bot for this project
 
-Fun fact 😂= those bots owners are my best  friend of tg 💙
+Fun fact 😂= those bots owners are my best  friend of tg 💙 from a long time😂💙⚡
 
 They really helped me a lot in coding❤️💙 :)
 

@@ -33,10 +33,9 @@ I know what am I doing so if u can help plz help😉
 Don't forget to give us star  🌟 ⭐ and follow us for updates
 
 Big thanks go to team **BLACK LIGHTNING**
-![IMG_20210226_110023_019](https://user-images.githubusercontent.com/73427470/109259316-f1becf80-7821-11eb-8c56-ffd2c7e5239c.jpg)
- and **PIKACHU-LAVA-BOT** 
-![IMG_20210226_105718_457](https://user-images.githubusercontent.com/73427470/109259066-807f1c80-7821-11eb-87fb-4e6eec8957c1.jpg)
 
+ and **PIKACHU-LAVA-BOT** 
+![IMG_20210226_110023_019](https://user-images.githubusercontent.com/73427470/109259316-f1becf80-7821-11eb-8c56-ffd2c7e5239c.jpg)
 bot for this project
 
 Fun fact 😂= those bots owners are my best  friend of tg 💙

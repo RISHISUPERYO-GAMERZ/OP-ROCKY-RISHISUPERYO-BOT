@@ -8,11 +8,13 @@ guys , we are working in our new bot⚡
 
 
 Owner :- https://t.me/Rishisuperyo
+![IMG_20210225_163541_304](https://user-images.githubusercontent.com/73427470/109259046-765d1e00-7821-11eb-9be6-d0732cfd480f.jpg)
 
 
 
 
 Owner 2:- https://t.me/Rocky_8218
+![IMG_20210226_105718_457](https://user-images.githubusercontent.com/73427470/109259066-807f1c80-7821-11eb-87fb-4e6eec8957c1.jpg)
 
 This is a group manage bot with plugins
 

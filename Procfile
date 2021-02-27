@@ -1,3 +1,3 @@
-worker: python3 -m OP ROCKY RISHISUPERYO BOT
-web: python3 -m OP ROCKY RISHISUPERYO BOT
+worker: python3 -m RISHISUPERYO
+web: python3 -m RISHISUPERYO
 ps:scale worker=1

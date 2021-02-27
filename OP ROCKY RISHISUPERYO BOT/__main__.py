@@ -4,14 +4,14 @@ import re
 from sys import argv
 from typing import Optional
 
-from Op-Rocky-Rishisuperyo-bot import (ALLOW_EXCL, CERT_PATH, DONATION_LINK, LOGGER,
+from Op Rocky Rishisuperyo bot import (ALLOW_EXCL, CERT_PATH, DONATION_LINK, LOGGER,
                           OWNER_ID, PORT, SUPPORT_CHAT, TOKEN, URL, WEBHOOK, pbot,
                           SUPPORT_CHAT, dispatcher, StartTime, telethn, updater)
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from OP-ROCKY-RISHISUPERYO-BOT.modules import ALL_MODULES
-from OP-ROCKY-RISHISUPERYO-BOT.modules.helper_funcs.chat_status import is_user_admin
-from OP-ROCKY-RISHISUPERYO-BOT.modules.helper_funcs.misc import paginate_modules
+from OP ROCKY RISHISUPERYO BOT.modules import ALL_MODULES
+from OP ROCKY RISHISUPERYO BOT.modules.helper_funcs.chat_status import is_user_admin
+from OP-ROCKY-RISHISUPERYO BOT.modules.helper_funcs.misc import paginate_modules
 from telegram import (InlineKeyboardButton, InlineKeyboardMarkup, ParseMode,
                       Update)
 from telegram.error import (BadRequest, ChatMigrated, NetworkError,
@@ -75,7 +75,7 @@ Legend is hosted on one of
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can be triggered with the following: /, !.\n")
 
-LEGEND_IMG = "https://telegra.ph/file/3088bf99d782acc902fc6.jpg"
+OP_IMG = "https://telegra.ph/file/3088bf99d782acc902fc6.jpg"
 
 Heroku's Servers and doesn't require any donations as of now but \
 You can donate to the original writer of the Base code, Paul

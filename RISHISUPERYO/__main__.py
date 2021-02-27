@@ -4,14 +4,14 @@ import re
 from sys import argv
 from typing import Optional
 
-from Op-Rocky-Rishisuperyo-bot import (ALLOW_EXCL, CERT_PATH, DONATION_LINK, LOGGER,
+from RISHISUPERYO import (ALLOW_EXCL, CERT_PATH, DONATION_LINK, LOGGER,
                           OWNER_ID, PORT, SUPPORT_CHAT, TOKEN, URL, WEBHOOK, pbot,
                           SUPPORT_CHAT, dispatcher, StartTime, telethn, updater)
 # needed to dynamically load modules
 # NOTE: Module order is not guaranteed, specify that in the config file!
-from OP-ROCKY-RISHISUPERYO-BOT.modules import ALL_MODULES
-from OP-ROCKY-RISHISUPERYO-BOT.modules.helper_funcs.chat_status import is_user_admin
-from OP-ROCKY-RISHISUPERYO-BOT.modules.helper_funcs.misc import paginate_modules
+from RISHISUPERYO.modules import ALL_MODULES
+from RISHISUPERYO.modules.helper_funcs.chat_status import is_user_admin
+from RISHISUPERYO.modules.helper_funcs.misc import paginate_modules
 from telegram import (InlineKeyboardButton, InlineKeyboardMarkup, ParseMode,
                       Update)
 from telegram.error import (BadRequest, ChatMigrated, NetworkError,

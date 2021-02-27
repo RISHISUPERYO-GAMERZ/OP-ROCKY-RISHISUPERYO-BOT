@@ -67,7 +67,7 @@ Here is modules:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can be triggered with the following: /, !.\n")
 
-LEGEND_IMG = "https://telegra.ph/file/0d636bba6b6df31853895.jpg"
+HACKER_IMG = "https://telegra.ph/file/0d636bba6b6df31853895.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Legend is hosted on one of 
@@ -75,7 +75,7 @@ Legend is hosted on one of
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can be triggered with the following: /, !.\n")
 
-LEGEND_IMG = "https://telegra.ph/file/3088bf99d782acc902fc6.jpg"
+HACKER_IMG = "https://telegra.ph/file/0d636bba6b6df31853895.jpg"
 
 Heroku's Servers and doesn't require any donations as of now but \
 You can donate to the original writer of the Base code, Paul
@@ -188,7 +188,7 @@ def start(update: Update, context: CallbackContext):
         else:
             first_name = update.effective_user.first_name
             update.effective_message.reply_photo(
-                LEGEND_IMG,
+                HACKER_IMG,
                 PM_START_TEXT.format(
                     escape_markdown(first_name),
                     escape_markdown(context.bot.first_name)),

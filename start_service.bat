@@ -27,5 +27,5 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------
 :: your commands begin from this point.
 :: stops the service and then starts it 
-net stop OP ROCKY RISHISUPERYO BOT
-net start OP ROCKY RISHISUPERYO BOT
+net stop RISHISUPERYO
+net start RISHISUPERYO

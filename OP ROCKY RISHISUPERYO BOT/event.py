@@ -1,5 +1,5 @@
 from telethon import events
-from OP-ROCKY-RISHISUPERYO-BOT import telethn
+from OP ROCKY RISHISUPERYOBOT import telethn
 
 
 def register(**args):

@@ -11,7 +11,7 @@ from OP ROCKY RISHISUPERYO BOT import (ALLOW_EXCL, CERT_PATH, DONATION_LINK, LOG
 # NOTE: Module order is not guaranteed, specify that in the config file!
 from OP ROCKY RISHISUPERYO BOT.modules import ALL_MODULES
 from OP ROCKY RISHISUPERYO BOT.modules.helper_funcs.chat_status import is_user_admin
-from OP-ROCKY-RISHISUPERYO BOT.modules.helper_funcs.misc import paginate_modules
+from OP ROCKY RISHISUPERYO BOT.modules.helper_funcs.misc import paginate_modules
 from telegram import (InlineKeyboardButton, InlineKeyboardMarkup, ParseMode,
                       Update)
 from telegram.error import (BadRequest, ChatMigrated, NetworkError,

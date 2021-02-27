@@ -64,12 +64,12 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/OP ROCKY RISHISUPERYO BOT
-RUN git clone -b shiken https://github.com/AnimeKaizoku/PIKACHU /root/PIKACHU
-WORKDIR /docs/OP ROCKY RISHISUPERYO BOT
+# Copy Python Requirements to /docs/OP ROCKY RISHISUPERYO BOT
+RUN git clone -b shiken https://github.com/AnimeKaizoku/RISHISUPERYO /docs/RISHISUPERYO
+WORKDIR /docs/RISHISUPERYO
 
-#Copy config file to /docs/OP ROCKY RISHISUPERYO BOT/OP-ROCKY-RISHISUPERYO-BOT
-COPY ./Op Rocky Rishisuperyo Bot/sample_config.py ./OP-ROCKY-RISHISUPERYO-BOT/config.py* /docs/OP-ROCKY-RISHISUPERYO-BOT/OP-ROCKY-RISHISUPERYO-BOT/
+#Copy config file to /docs/RISHISUPERYO/OP-ROCKY-RISHISUPERYO-BOT
+COPY ./RISHISUPERYO/sample_config.py ./RISHISUPERYO/config.py* /docs/RISHISUPERYO/RISHISUPERYO/
 
 ENV PATH="/home/bot/bin:$PATH"
 
@@ -77,4 +77,4 @@ ENV PATH="/home/bot/bin:$PATH"
 RUN pip3 install -U -r requirements.txt
 
 # Starting Worker
-CMD ["python3","-m","OP ROCKY RISHISUPERYO BOT"]
+CMD ["python3","-m","RISHISUPERYO"]

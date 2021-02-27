@@ -205,7 +205,7 @@ DEMONS = list(DEMONS)
 TIGERS = list(TIGERS)
 
 # Load at end to ensure all prev variables have been set
-from RISHISUPERYO.modules.helper_funcs.handlers import (CustomCommandHandler,
+from PYTHON.modules.helper_funcs.handlers import (CustomCommandHandler,
                                                         CustomMessageHandler,
                                                         CustomRegexHandler)
 

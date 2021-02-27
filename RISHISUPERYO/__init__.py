@@ -103,7 +103,7 @@ if ENV:
             "Your blacklisted chats list does not contain valid integers.")
 
 else:
-    from PIKACHU.config import Development as Config
+    from RISHISUPERYO.config import Development as Config
     TOKEN = Config.TOKEN
 
     try:

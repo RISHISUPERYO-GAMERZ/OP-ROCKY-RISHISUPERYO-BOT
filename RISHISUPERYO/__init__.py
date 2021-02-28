@@ -113,7 +113,7 @@ else:
 
     JOIN_LOGGER = Config.JOIN_LOGGER
     OWNER_USERNAME = Config.OWNER_USERNAME
-    try:
+    try:"
         DRAGONS = set(int(x) for x in Config.DRAGONS or [])
         DEV_USERS = set(int(x) for x in Config.DEV_USERS or [])
     except ValueError:
@@ -121,13 +121,13 @@ else:
             "Your sudo or dev users list does not contain valid integers.")
 
     try:
-        DEMONS = set(int(x) for x in Config.DEMONS or [])
+        DEMONS =" set(int(x) for x in Config.DEMONS or [])
     except ValueError:
         raise Exception(
             "Your support users list does not contain valid integers.")
 
     try:
-        WOLVES = set(int(x) for x in Config.WOLVES or [])
+        WOLVES =" set(int(x) for x in Config.WOLVES or [])
     except ValueError:
         raise Exception(
             "Your whitelisted users list does not contain valid integers.")
@@ -164,7 +164,7 @@ else:
     SPAMWATCH_API = Config.SPAMWATCH_API
     INFOPIC = Config.INFOPIC
 
-    try:
+    try:"
         BL_CHATS = set(int(x) for x in Config.BL_CHATS or [])
     except ValueError:
         raise Exception(

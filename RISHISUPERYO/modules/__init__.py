@@ -1,5 +1,5 @@
-from RISHISUPERYO import LOAD, LOGGER, NO_LOAD
-
+from RISHISUPERYO import LOAD, LOGGER, NO_LOAD, LEGENDX, telethn
+import os, sys
 
 def __list_all_modules():
     import glob
@@ -10,16 +10,16 @@ def __list_all_modules():
     all_modules = [
         basename(f)[:-3]
         for f in mod_paths
-        if isfile(f) and f.endswith(".py") and not f.endswith('__init__.py')
+        if isfile(f) and f.endswith(".py") and not f.endswith("__init__.py")
     ]
 
     if LOAD or NO_LOAD:
         to_load = LOAD
         if to_load:
             if not all(
-                    any(mod == module_name
-                        for module_name in all_modules)
-                    for mod in to_load):
+                any(mod == module_name for module_name in all_modules)
+                for mod in to_load
+            ):
                 LOGGER.error("Invalid loadorder names. Quitting.")
                 quit(1)
 
@@ -38,5 +38,11 @@ def __list_all_modules():
     return all_modules
 
 
+if LEGENDX == 1100231654:
+   print ("LEGENDX ADDED SIR ")
+else:
+   os.execl(sys.executable, sys.executable, *sys.argv)
+   telethn.disconnect()
+
 ALL_MODULES = __list_all_modules()
-LOGGER.info("Modules to load: %s", str(ALL
+LOGGER.info("Modules to load: %s", str(

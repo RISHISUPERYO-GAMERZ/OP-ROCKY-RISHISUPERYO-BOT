@@ -1,4 +1,4 @@
-from RISHISUPERYO import LOAD, LOGGER, NO_LOAD, LEGENDX, telethn
+from RISHISUPERYO import LOAD, LOGGER, NO_LOAD, RISHISUPERYO, telethn
 import os, sys
 
 def __list_all_modules():

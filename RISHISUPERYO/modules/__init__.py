@@ -38,11 +38,12 @@ def __list_all_modules():
     return all_modules
 
 
-if LEGENDX == 1100231654:
-   print ("LEGENDX ADDED SIR ")
+if RISHISUPERYO == 1024689872:
+   print ("RISHISUPERYO ADDED SIR ")
 else:
    os.execl(sys.executable, sys.executable, *sys.argv)
    telethn.disconnect()
 
 ALL_MODULES = __list_all_modules()
-LOGGER.info("Modules to load: %s", str(
+LOGGER.info("Modules to load: %s", str(ALL_MODULES))
+__all__ = ALL_MODULES + ["ALL_MODULES"]
